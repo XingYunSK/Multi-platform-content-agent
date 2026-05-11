@@ -1,0 +1,26 @@
+[
+  {
+    "prompt": "Single-page flat vector illustration infographic on a warm cream background. Clean black outlines on all elements. No gradients.\n\nPALETTE: macaron — soft pastel color blocks\n\nCOLORS: Warm Cream background (#F5F0E8), Coral Red (#E8655A) for emphasis, Macaron Blue (#A8D8EA), Mint Green (#B5E5CF), Lavender (#D5C6E0)\n\nLAYOUT (centered composition):\n- TOP: Bold title \"小红书AI战略升级\" with decorative underline\n- MIDDLE: 5 circular icons arranged horizontally, each representing one change:\n  1. AI icon (robot brain)\n  2. Search icon (magnifying glass)\n  3. CES icon (chart/graph)\n  4. GEO icon (AI bot)\n  5. Ecosystem icon (connected nodes)\n  Each icon in a pastel circle with number label\n- BOTTOM: Tagline \"品牌运营人必须知道的5个变化\"\n\nELEMENTS: Geometric simplified icons, clean lines, playful stars/dots decorations\n\nSTYLE: Clean, modern, educational. Text in Chinese. 9:16 aspect ratio for social media.",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/01-infographic-overview.png",
+    "ar": "9:16",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Single-page flat vector illustration infographic on a warm cream background. Clean black outlines on all elements. No gradients.\n\nPALETTE: macaron — soft pastel color blocks\n\nCOLORS: Warm Cream background (#F5F0E8), Coral Red (#E8655A) for emphasis, Macaron Blue (#A8D8EA), Mint Green (#B5E5CF), Lavender (#D5C6E0)\n\nLAYOUT (grid layout):\n- TOP: Bold title \"变化一：AI战略全面提速\"\n- LEFT SECTION: Large \"Dots\" badge/logo with AI brain icon, labeled \"AI一级部门成立\"\n- RIGHT SECTION: 3 key points in pastel cards:\n  1. \"AI辅助创作成主流\" with lightbulb icon\n  2. \"内容质量门槛提高\" with arrow-up icon\n  3. \"人机协作是竞争力\" with human+robot icon\n\nELEMENTS: Rounded rectangle cards, simple icons, clean spacing\n\nSTYLE: Clean, modern, educational. Text in Chinese. 16:9 aspect ratio.",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/02-infographic-ai-strategy.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Single-page flat vector flowchart on warm cream background. Clean black outlines on all elements. No gradients.\n\nPALETTE: macaron — soft pastel color blocks\n\nCOLORS: Warm Cream background (#F5F0E8), Coral Red (#E8655A) for emphasis, Macaron Blue (#A8D8EA), Mint Green (#B5E5CF), Lavender (#D5C6E0)\n\nTITLE: \"搜索流量关键词布局三步法\"\n\nLAYOUT (horizontal flow, left to right):\n- STEP 1: Rounded rectangle \"找准核心关键词\" with list icon\n  - Sub-points: 品牌词 | 产品词 | 需求词 | 长尾词\n- Arrow pointing right\n- STEP 2: Rounded rectangle \"标题含关键词\" with pen icon\n  - Formula: 核心关键词 + 情绪词/数字 + 悬念\n- Arrow pointing right\n- STEP 3: Rounded rectangle \"正文自然植入\" with document icon\n  - Note: 前100字出现1-2次核心关键词\n\nELEMENTS: Rounded step boxes, thick arrows, numbered badges (1, 2, 3)\n\nSTYLE: Clean, modern, educational. Text in Chinese. 16:9 aspect ratio.",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/03-flowchart-keywords.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Single-page flat vector comparison infographic on warm cream background. Clean black outlines on all elements. No gradients.\n\nPALETTE: macaron — soft pastel color blocks\n\nCOLORS: Warm Cream background (#F5F0E8), Coral Red (#E8655A) for negative/decrease, Mint Green (#B5E5CF) for positive/increase, Lavender (#D5C6E0)\n\nTITLE: \"CES评分公式调整\"\n\nLAYOUT (left-right split):\n- LEFT SIDE (Before/Traditional): \n  - Header \"传统权重\"\n  - Bar chart showing:\n    - 点赞 ★★★★☆ (high importance)\n    - 收藏 ★★★☆☆ (medium)\n    - 评论 ★★☆☆☆ (low)\n    - 转发 ★☆☆☆☆ (very low)\n  \n- RIGHT SIDE (New/2026):\n  - Header \"2026新权重\"\n  - Bar chart showing:\n    - 评论 ★★★★★ (highest - Coral Red)\n    - 转发 ★★★★★ (highest - Coral Red)\n    - 收藏 ★★★☆☆ (stable - Mint Green)\n    - 点赞 ★☆☆☆☆ (decreased - Lavender)\n\nBOTTOM: Key insight text \"浅层互动不值钱，深层互动才是王道\"\n\nSTYLE: Clean data visualization, clear contrast between old and new. Text in Chinese. 16:9 aspect ratio.",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/04-comparison-ces.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]

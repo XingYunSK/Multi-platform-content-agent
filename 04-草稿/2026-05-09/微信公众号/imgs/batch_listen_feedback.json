@@ -1,0 +1,20 @@
+[
+  {
+    "prompt": "Modern e-commerce illustration showing user co-creation concept. Diverse group of happy customers participating in product design, voting on colors and styles. Community engagement visualization, Chinese startup aesthetic, warm and inviting colors, 16:9 aspect ratio",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/04-cover-listen-feedback.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Data visualization comparing new customers vs returning customers value. Bar chart showing returning customers contribute 81% vs new customers 19%. Modern infographic style, Chinese tech aesthetic, teal and coral colors, professional business look, 16:9",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/05-infographic-old-customer.png",
+    "ar": "16:16",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Process flow showing user co-creation product development cycle: User feedback → Design → Production → User satisfaction → More feedback. Circular diagram with icons, modern flat design, Chinese startup style, 16:9",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/06-infographic-cocreation.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]

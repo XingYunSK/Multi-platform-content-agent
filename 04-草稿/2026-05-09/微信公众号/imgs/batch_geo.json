@@ -1,0 +1,8 @@
+[
+  {
+    "prompt": "Single-page flat vector infographic on warm cream background. Clean black outlines on all elements. No gradients.\n\nPALETTE: macaron — soft pastel color blocks\n\nCOLORS: Warm Cream background (#F5F0E8), Coral Red (#E8655A) for emphasis, Macaron Blue (#A8D8EA), Mint Green (#B5E5CF), Lavender (#D5C6E0)\n\nLAYOUT:\n- TOP: Bold title \"变化四：GEO时代来临\"\n- SUBTITLE: \"让AI推荐你的内容\"\n\nMIDDLE SECTION (4 cards in 2x2 grid):\n- Card 1: \"结构化表达\" with list icon, blue background\n- Card 2: \"引用权威来源\" with quote icon, green background  \n- Card 3: \"问答格式内容\" with Q&A icon, lavender background\n- Card 4: \"E-E-A-T原则\" with badge icon, coral background\n\nBOTTOM: \"从SEO到GEO，内容优化新战场\" tagline\n\nELEMENTS: Rounded rectangle cards, simple icons, clean spacing\n\nSTYLE: Clean, modern, educational. Text in Chinese. 9:16 aspect ratio.",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/05-infographic-geo.png",
+    "ar": "9:16",
+    "model": "gpt-image-2"
+  }
+]

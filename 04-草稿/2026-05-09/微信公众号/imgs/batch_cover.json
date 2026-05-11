@@ -1,0 +1,8 @@
+[
+  {
+    "prompt": "Single-page flat vector cover illustration on warm cream background. Clean black outlines on all elements. No gradients.\n\nPALETTE: macaron — soft pastel color blocks\n\nCOLORS: Warm Cream background (#F5F0E8), Coral Red (#E8655A) for emphasis, Macaron Blue (#A8D8EA), Mint Green (#B5E5CF), Lavender (#D5C6E0)\n\nCOMPOSITION:\n- TOP AREA: Large bold title \"小红书AI战略升级\" in coral red, with decorative underline\n- SUBTITLE: \"品牌运营人必须知道的5个变化\" in dark gray\n- MIDDLE AREA: 5 circular icons arranged horizontally in a row, each icon in a different pastel color (blue, green, lavender, coral, mint), representing the 5 changes:\n  1. Robot brain icon (AI)\n  2. Magnifying glass icon (Search)\n  3. Chart/graph icon (CES)\n  4. AI bot icon (GEO)\n  5. Connected nodes icon (Ecosystem)\n- BOTTOM AREA: \"2026\" badge in coral red, with small decorative stars\n\nELEMENTS: Geometric simplified icons, clean lines, playful stars/dots decorations around the icons, rounded shapes\n\nSTYLE: Clean, modern, professional. Text in Chinese. 16:9 aspect ratio for WeChat article cover. High contrast between text and background for readability.",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/00-cover-article.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]

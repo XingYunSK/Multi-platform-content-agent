@@ -1,0 +1,20 @@
+[
+  {
+    "prompt": "A modern business illustration showing contrast between traditional brand marketing and user-driven marketing. Left side: a corporation with megaphone broadcasting to passive users. Right side: users creating content with brands responding. Modern flat design style, vibrant colors, Chinese tech aesthetic, 16:9 aspect ratio, clean minimalist layout",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/01-cover-brand-amplifier.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Infographic comparing traditional marketing funnel vs user-driven marketing funnel. Traditional: Brand → Content → Users. User-driven: Users → UGC → Brand responds. Show data visualization style, modern flat design, blue and orange color scheme, Chinese tech aesthetic, 16:9",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/02-infographic-funnel.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Business process flow showing brand hot topic response mechanism: Monitor → Decision → Execute. Icons representing radar, lightning bolt, and megaphone. Modern flat design, step-by-step visualization, Chinese tech startup style, professional clean look, 16:9",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-多平台写作 Agent/微信公众号/草稿/imgs/03-infographic-response.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]

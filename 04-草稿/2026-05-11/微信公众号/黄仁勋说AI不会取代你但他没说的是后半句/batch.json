@@ -1,0 +1,20 @@
+[
+  {
+    "prompt": "Single-page warm illustration poster. Warm paper texture background (#FFECD2), warm color blocks, handwritten-style Chinese title text prominently displayed. A confident male figure on a stage with warm spotlight from above, soft orange glow mixing with golden light, inviting and inspiring atmosphere. Circuit board patterns subtly visible in background in warm brown tones. Human figure rendered as stylized friendly silhouette, not photorealistic.\n\nCOLOR PALETTE (warm earth tones, no cool colors): Background: Soft Peach (#FFECD2); Primary: Warm Orange (#ED8936); Secondary: Golden Yellow (#F6AD55); Tertiary: Terracotta (#C05621); Accent: Deep Brown (#744210); Outlines: Deep Charcoal (#2D2D2D); Text: Warm Charcoal (#4A4A4A)\n\nTEXT IN IMAGE: Large prominent Chinese title text with handwritten-style fonts — minimal text, focus on keywords.\n\nSTYLE: Warm, inviting, approachable. Human-centered, personal growth atmosphere. Rounded shapes, soft corners, warm light effects. Clean composition with generous white space. Aspect 2.35:1",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-草稿/2026-05-11/微信公众号/黄仁勋说AI不会取代你但他没说的是后半句/00-cover-warm.png",
+    "ar": "2.35:1",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Timeline infographic showing Jensen Huang's life journey from humble beginnings to CMU 2026 speech. Clean warm-toned illustration style.\n\nLAYOUT: Horizontal timeline, left to right progression\n\nEVENTS (with Chinese labels):\n- 左侧起点：「9岁」标注「独自飞往美国，住进肯塔基煤矿小镇寄宿学校」\n- 第二节点：「17岁」标注「俄勒冈州立大学遇见妻子Lori，赢得她的心」\n- 第三节点：「30岁」标注「与两位合伙人创办英伟达」\n- 右侧终点：「2026年」标注「CMU毕业典礼演讲，身价1860亿美元」\n\nMARKERS: Each node has a simple warm-toned icon above it — airplane, heart, chip, speech podium\n\nCOLOR PALETTE (warm earth tones): Background: Soft Peach (#FFECD2); Timeline line: Warm Orange (#ED8936); Node fills: Terracotta (#C05621), Golden Yellow (#F6AD55); Text/labels: Deep Charcoal (#2D2D2D); Accent: Deep Brown (#744210)\n\nSTYLE: Elegant warm timeline, refined typography, clear visual hierarchy. Human journey narrative feel. Simplified human figure silhouettes, rounded friendly shapes. Chinese labels only, hand-lettered feel, concise keywords. Aspect 16:9",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-草稿/2026-05-11/微信公众号/黄仁勋说AI不会取代你但他没说的是后半句/01-timeline-journey.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Atmospheric scene illustration. Warm golden dawn breaking through on the horizon, a single human silhouette standing firm, facing the light source with quiet determination. No text in image.\n\nFOCAL POINT: Human silhouette centered-left, facing right toward the warm light source.\n\nATMOSPHERE: Dawn breaking on the horizon, vast open space, sense of new beginning and quiet resolve.\n\nMOOD: Inspirational, hopeful, human resilience. The feeling of 'facing the dawn without being ready — and choosing to start anyway.'\n\nCOLOR TEMPERATURE: Warm — golden oranges, soft peaches, amber glow.\n\nCOLOR PALETTE (warm earth tones, no cool colors): Background: Deep warm brown/charcoal (#2D2D2D) transitioning to warm amber; Light source: Golden Yellow (#F6AD55) to Warm Orange (#ED8936) gradient; Silhouette: Deep Charcoal (#2D2D2D); Horizon glow: Terracotta (#C05621), Warm Orange (#ED8936); Accent: Deep Brown (#744210)\n\nSTYLE: Warm cinematic scene, inviting and hopeful atmosphere. Human-centered emotional narrative. Soft gradients, gentle warm light effects, rounded composition. Stylized human figure, not photorealistic. Generous negative space. Aspect 16:9",
+    "image": "/Users/huangxuezhi01/Documents/行云数科/Obsidian/AI运营内容引擎/04-草稿/2026-05-11/微信公众号/黄仁勋说AI不会取代你但他没说的是后半句/02-scene-dawn.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]
