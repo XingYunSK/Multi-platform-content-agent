@@ -1,30 +1,45 @@
 # 所需 Cursor Agent Skills
 
 > 本系统依赖 Cursor Agent 的 Skills 扩展能力。以下列出所有已集成的 Skills 及安装方式。
->
-> **已集成的 Skills 由系统预装，无需手动安装。** 以下仅作说明，如需添加新 Skill 请参考本指南。
 
 ---
 
-## 已集成 Skills
+## 系统必需 Skills
 
-### 1. aihot — AI 热点资讯查询
+### 1. baoyu-article-illustrator — 文章配图生成
 
-| 属性 | 说明 |
-|------|------|
-| **触发词** | "今天 AI 圈有什么"、"AI 日报"、"AI HOT"、"AI 资讯"、"AI 热点" |
-| **功能** | 抓取 aihot.virxact.com 公开 API，整理为中文简报 |
-| **本系统用途** | 热点抓取（SOP-03）的核心数据源之一 |
-| **是否预装** | ✅ 是（已安装于 `~/.claude/skills/aihot/`） |
 
-### 2. xiaohongshu — 小红书内容工具
+| 属性        | 说明                                                            |
+| --------- | ------------------------------------------------------------- |
+| **触发词**   | "帮我生成配图"、"为文章配图"、"生成插图"                                       |
+| **功能**    | 分析文章结构 → 生成配图提示词 → 调用 gpt-image-2 出图                          |
+| **本系统用途** | SOP-06B 配图生成的核心工具                                             |
+| **是否预装**  | ✅ 是（已安装于 `~/.baoyu-skills/skills/baoyu-article-illustrator/`） |
 
-| 属性 | 说明 |
-|------|------|
-| **触发词** | "小红书上有哪些关于 XX 的讨论"、"分析小红书舆情"、"小红书 XX 话题报告" |
-| **功能** | 搜索内容、获取帖子详情、评论分析、用户主页 |
-| **本系统用途** | 热点抓取（SOP-03）+ 选题库舆情分析（SOP-05） |
-| **是否预装** | ✅ 是（已安装于 `~/.claude/skills/xiaohongshu/`） |
+
+**核心功能：**
+
+- 智能分析文章内容，识别需要视觉辅助的位置
+- Type × Style × Palette 三维度生成配图
+- 支持 infographic / scene / flowchart / comparison / framework / timeline 等类型
+- 生成可复现的提示词文件，便于迭代调整
+
+### 2. baoyu-url-to-markdown — 网页内容抓取
+
+
+| 属性        | 说明                                                        |
+| --------- | --------------------------------------------------------- |
+| **触发词**   | "帮我抓取这个网页"、"把网页转成 markdown"                               |
+| **功能**    | 将任意网页转换为结构化 Markdown，保留原文格式                               |
+| **本系统用途** | SOP-03 热点抓取 的素材采集环节                                       |
+| **是否预装**  | ✅ 是（已安装于 `~/.baoyu-skills/skills/baoyu-url-to-markdown/`） |
+
+
+**核心功能：**
+
+- 支持主流媒体网站（数英网、虎嗅、36氪等）
+- 保留原文段落结构和关键数据
+- 自动提取标题、来源、发布时间
 
 ---
 
@@ -32,31 +47,46 @@
 
 以下 Skills **不在系统预装范围内**，如需特定功能可手动安装。
 
-### 3. x-mastery-mentor — X/Twitter 运营导师
+### 3. baoyu-post-to-wechat — 微信公众号发布
 
-| 属性 | 说明 |
-|------|------|
-| **触发词** | "怎么写推文"、"怎么涨粉"、"X 策略"、"推特选题" |
-| **功能** | 选题-写作-增长操作手册，AI/科技赛道专精 |
-| **本系统用途** | 如需扩展至 X/Twitter 平台内容分发 |
-| **安装方式** | 见下方「如何安装新 Skill」 |
 
-### 4. gpt-image2-ppt-skills — PPT 幻灯片生成
+| 属性        | 说明                       |
+| --------- | ------------------------ |
+| **功能**    | 将 Markdown 文章转换为公众号格式并发布 |
+| **本系统用途** | 如需扩展至自动化发布环节             |
+| **安装方式**  | 见下方「如何安装新 Skill」         |
 
-| 属性 | 说明 |
-|------|------|
-| **触发词** | "做一份 PPT"、"生成幻灯片"、"用 gpt-image 生成 PPT" |
-| **功能** | 10 种视觉风格 + 模板克隆模式，输出 HTML 预览和 PPTX |
-| **本系统用途** | 如需为内容营销生成演示文稿 |
-| **安装方式** | 见下方「如何安装新 Skill」 |
 
-### 5. find-skills — 技能发现工具
+### 4. baoyu-youtube-transcript — YouTube 字幕抓取
 
-| 属性 | 说明 |
-|------|------|
+
+| 属性        | 说明                    |
+| --------- | --------------------- |
+| **功能**    | 抓取 YouTube 视频字幕用于素材采集 |
+| **本系统用途** | 热点素材的多媒体来源            |
+| **安装方式**  | 见下方「如何安装新 Skill」      |
+
+
+### 5. baoyu-slide-deck — PPT 幻灯片生成
+
+
+| 属性        | 说明                |
+| --------- | ----------------- |
+| **触发词**   | "做一份 PPT"、"生成幻灯片" |
+| **功能**    | 生成演示文稿，支持多种视觉风格   |
+| **本系统用途** | 如需为内容营销生成演示文稿     |
+| **安装方式**  | 见下方「如何安装新 Skill」  |
+
+
+### 6. find-skills — 技能发现工具
+
+
+| 属性      | 说明                                          |
+| ------- | ------------------------------------------- |
 | **触发词** | "有这个 Skill 吗"、"帮我找一个 Skill"、"how do I do X" |
-| **功能** | 搜索并安装 Agent Skills |
-| **用途** | 发现和安装更多能力扩展 |
+| **功能**  | 搜索并安装 Agent Skills                          |
+| **用途**  | 发现和安装更多能力扩展                                 |
+
 
 ---
 
@@ -65,60 +95,93 @@
 ### 方式一：通过 find-skills 自动安装
 
 ```
-有这个 Skill 可以帮我写 X/Twitter 推文吗？
+有这个 Skill 可以帮我做 PPT 吗？
 ```
 
 → AI 调用 `find-skills` Skill，搜索并引导安装
 
 ### 方式二：手动安装
 
-1. 找到目标 Skill 的 `SKILL.md` 文件路径
-2. 在 Cursor 中执行：
+1. 找到目标 Skill 的 GitHub 仓库（如 `https://github.com/JimLiu/baoyu-skills`）
+2. 克隆到本地：
+
+```bash
+git clone https://github.com/JimLiu/baoyu-skills.git ~/.baoyu-skills
+```
+
+1. 或在 Cursor 中执行：
 
 ```
 安装 Skill：[SKILL.md 的完整路径]
 ```
 
-3. Skill 写入 `~/.claude/skills/[skill-name]/SKILL.md` 后自动生效
-
 ---
 
 ## Skill 目录结构
 
-每个 Skill 包含：
+每个 baoyu Skill 包含：
 
 ```
-~/.claude/skills/[skill-name]/
+~/.baoyu-skills/skills/[skill-name]/
 └── SKILL.md          # Skill 主文件（含触发词 + 执行逻辑）
 ```
 
 ### 查看已安装 Skills
 
 ```
-~/.claude/skills/
-├── aihot/
-│   └── SKILL.md
-├── xiaohongshu/
-│   └── SKILL.md
-├── x-mastery-mentor/
-│   └── SKILL.md
-├── gpt-image2-ppt-skills/
-│   └── SKILL.md
-└── find-skills/
-    └── SKILL.md
+~/.baoyu-skills/skills/
+├── baoyu-article-illustrator/   # 文章配图生成 ⭐必需
+├── baoyu-url-to-markdown/      # 网页内容抓取 ⭐必需
+├── baoyu-post-to-wechat/       # 微信公众号发布
+├── baoyu-youtube-transcript/   # YouTube 字幕抓取
+├── baoyu-slide-deck/           # PPT 幻灯片生成
+├── baoyu-markdown-to-html/     # Markdown 转 HTML
+├── baoyu-imagine/             # 生图后端
+└── ...（更多 baoyu skills）
 ```
 
 ---
 
 ## 系统必需 Skills 确认
 
-| Skill | 必需 | 用途 | 状态 |
-|-------|------|------|------|
-| aihot | ✅ 必需 | AI 行业热点来源 | ✅ 已安装 |
-| xiaohongshu | ✅ 必需 | 小红书舆情分析 | ✅ 已安装 |
-| find-skills | ⬜ 推荐 | 发现新 Skill | ✅ 已安装 |
-| x-mastery-mentor | ⬜ 可选 | X 平台扩展 | ⬜ 未安装 |
-| gpt-image2-ppt-skills | ⬜ 可选 | PPT 生成 | ⬜ 未安装 |
+
+| Skill                     | 必需   | 用途        | 状态    |
+| ------------------------- | ---- | --------- | ----- |
+| baoyu-article-illustrator | ✅ 必需 | 文章配图生成    | ✅ 已安装 |
+| baoyu-url-to-markdown     | ✅ 必需 | 网页内容抓取    | ✅ 已安装 |
+| find-skills               | ⬜ 推荐 | 发现新 Skill | ✅ 已安装 |
+| baoyu-post-to-wechat      | ⬜ 可选 | 公众号发布     | ⬜ 未安装 |
+| baoyu-youtube-transcript  | ⬜ 可选 | 视频素材抓取    | ⬜ 未安装 |
+| baoyu-slide-deck          | ⬜ 可选 | PPT 生成    | ⬜ 未安装 |
+
+
+---
+
+## baoyu Skills 完整列表
+
+
+| Skill                     | 用途                |
+| ------------------------- | ----------------- |
+| baoyu-article-illustrator | 文章配图生成            |
+| baoyu-url-to-markdown     | 网页转 Markdown      |
+| baoyu-markdown-to-html    | Markdown 转 HTML   |
+| baoyu-post-to-wechat      | 微信公众号发布           |
+| baoyu-post-to-weibo       | 微博发布              |
+| baoyu-post-to-x           | X/Twitter 发布      |
+| baoyu-youtube-transcript  | YouTube 字幕抓取      |
+| baoyu-slide-deck          | PPT 幻灯片生成         |
+| baoyu-imagine             | 生图后端（gpt-image-2） |
+| baoyu-infographic         | 信息图生成             |
+| baoyu-cover-image         | 封面图生成             |
+| baoyu-diagram             | 流程图/架构图生成         |
+| baoyu-image-cards         | 图片卡片生成            |
+| baoyu-comic               | 漫画生成              |
+| baoyu-translate           | 翻译                |
+| baoyu-format-markdown     | Markdown 格式化      |
+| baoyu-compress-image      | 图片压缩              |
+
+
+完整列表及文档：[https://github.com/JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)
 
 ---
 
