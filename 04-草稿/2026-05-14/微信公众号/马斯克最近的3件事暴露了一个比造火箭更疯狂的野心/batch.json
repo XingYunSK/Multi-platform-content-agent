@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "A futuristic magazine cover illustration in dark navy blue (#0A1628) with teal (#00D4AA) and electric blue (#3B82F6) neon accents.\n\nCenter composition: A sleek, minimalist illustration of Elon Musk's silhouette against a glowing X logo, with multiple holographic screens floating around him showing:\n- A satellite constellation in orbit (left)\n- A payment interface with dollar signs (right)\n- A neural network/AI brain visualization (top)\n\nBottom third: A bold headline area with the title text placeholder, overlaid with subtle data visualization lines and circuit patterns.\n\nText placeholder area at top: \"THE 3 THINGS\" in thin white sans-serif\nText placeholder area at bottom: \"Elon Musk's Latest Moves Reveal Something Bigger\" in bold white sans-serif\n\nColor palette: Deep space navy (#0A1628) background with teal (#00D4AA), electric blue (#3B82F6), and white (#FFFFFF) accents. Subtle grid lines and hexagonal patterns for a tech/space aesthetic.\n\nStyle: Editorial tech magazine cover, similar to Bloomberg Businessweek meets Wired, clean vector illustration with subtle gradients, no photorealistic elements.\n\nAspect ratio: 2.35:1 (cinematic widescreen)",
+    "image": "00-cover.png",
+    "ar": "2.35:1",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "A horizontal timeline infographic in a clean, modern editorial style.\n\nTimeline spans from 2022 to 2026, showing 5 key milestones of Elon Musk's \"Everything App\" strategy:\n\n1. 2022.10 - \"Twitter Acquisition\" with Twitter bird transforming to X logo, label: $44B / 5.5亿月活, blue dot\n2. 2023.07 - \"X Rebrand\" with letter X in bold typeface, label: 品牌重塑, teal dot\n3. 2025.03 - \"xAI Acquires X\" with brain and X merge, label: AI深度整合, purple dot\n4. 2026.04 - \"X Money Launch\" with credit card and dollar sign, label: 支付公测 / 6%年化, gold dot\n5. 2026.05 - \"xAI + SpaceX Merge\" with rocket and constellation, label: 算力+分发, cyan dot\n\nLayout: Horizontal line connects all dots, dates above the line, event names and labels below. Connecting line uses gradient from blue to teal to gold.\n\nBackground: Very subtle grid pattern, light (#F8FAFC) background with dark text (#1E293B).\n\nStyle: Clean infographic, data visualization, minimal but informative. Similar to premium presentation design (Apple/Google style).\n\nTypography: Sans-serif, dates in medium weight, labels in light weight.\n\nAspect ratio: 1.6:1 (16:10)",
+    "image": "01-timeline.png",
+    "ar": "16:10",
+    "model": "gpt-image-2"
+  }
+]
