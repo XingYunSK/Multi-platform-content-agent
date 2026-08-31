@@ -1,0 +1,4 @@
+Prompt: Square 1:1 minimalist tech editorial cover in same style as previous. Cream-white (#F5F5F0) background. Center: large bold number '80%' in modern sans-serif font, with small text below 'AI自写代码'. Simplified recursive loop symbol or chip outline in dark gray with single orange (#E85D04) accent point. Bottom: small 'Holamuse' text. Very minimal, only core number and symbol, high readability at small size. No data, no clutter. New neutral information style, tech business magazine aesthetic. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean, no calligraphy fonts.
+Aspect Ratio: 1:1
+Model: gpt-image-2
+Status: PENDING - Needs image generation

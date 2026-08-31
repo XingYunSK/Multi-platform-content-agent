@@ -1,0 +1,28 @@
+{
+  "defaultStyle": "obsidian-light",
+  "defaultHighlight": "默认",
+  "showStyleUI": true,
+  "linkStyle": "inline",
+  "embedStyle": "content",
+  "lineNumber": true,
+  "authKey": "acb1299f-b7be-49a8-b0a0-ca7996c8b7a8",
+  "wxInfo": [
+    {
+      "name": "Holamuse",
+      "appid": "wxf5ce733f77f6149c",
+      "secret": "SECRET3492b1d77f7997ab18136afc6b2490e9ad9f7df435927dcf72e5b5ab90c112e619c32a3dbaa425fd05b886ea2f62037ef28b89d4876aaf3b7bb54ded6d25401830628251013d8c2d762563861976e2102604988fb01912781f7f2f21bfedb9c4b5e613532c4eee7e3a6a8dd70cb329f295ae647bab31932d04aec78932298ea72efeec954a4173424e66c30c83d0821c1c3a191c251f809bfbad6b6a33fb694697c7c416b8dda1dd23a742de64b0dc8465e1d81cfa1b3ca84fb285c990a67d955499473e8d558db18f32c0a7fd53be40e5db622b9419d7695eb7362804c4521456e1de904c01a634de4f84e5f2041d545bd713614f3e5c36bb7b513b3576aca4"
+    }
+  ],
+  "math": "latex",
+  "useCustomCss": false,
+  "baseCSS": "",
+  "watermark": "",
+  "useFigcaption": false,
+  "customCSSNote": "自定义样式",
+  "excalidrawToPNG": false,
+  "expertSettingsNote": "",
+  "ignoreEmptyLine": false,
+  "isVip": false,
+  "expireat": "2026-06-07T04:35:00.356Z",
+  "dismissedAnnouncements": []
+}

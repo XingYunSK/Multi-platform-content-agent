@@ -1,0 +1,4 @@
+Prompt: Clean data visualization chart in 'new neutral information style'. Cream-white (#F5F5F0) background. Title at top: 'AI独立完成任务时长指数曲线'. Horizontal timeline axis: 2024年3月 → 2025年3月 → 2026年, with a dashed extension to 2026年底. A steep exponential curve rising from bottom-left, with three orange (#E85D04) dots marking key nodes: '4分钟' at 2024.3, '1.5小时' at 2025.3, '12小时' at 2026. Thin lines connecting dots to their Chinese labels. Dashed line extending beyond 2026 suggesting continued growth. Small note at bottom: '约每四个月翻一番'. Another small note: '如果延续，几天时长的任务也将落入AI能力范围'. Modern sans-serif font (Calibri/Inter/Helvetica feel). Clean chart area, generous whitespace, light gray (#CCCCCC) grid lines. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean and legible, no calligraphy or Song/Times fonts.
+Aspect Ratio: 16:9
+Model: gpt-image-2
+Status: PENDING - Needs image generation

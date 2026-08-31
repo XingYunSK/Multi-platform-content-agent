@@ -1,0 +1,179 @@
+{
+  "_comment": "数据源健康度追踪文件。每次抓取后更新 last_success 和 consecutive_failures。",
+  "last_updated": "2026-05-17",
+  "sources": [
+    {
+      "id": "tophub",
+      "name": "今日热榜 tophub.today",
+      "type": "html",
+      "url": "https://tophub.today",
+      "category": "D-聚合热榜",
+      "status": "active",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "auto",
+      "note": "主入口，聚合全网热榜"
+    },
+    {
+      "id": "digitaling",
+      "name": "数英网",
+      "type": "rss",
+      "url": "https://www.digitaling.com/rss",
+      "category": "E-垂直媒体",
+      "status": "active",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "auto",
+      "note": "RSS 稳定"
+    },
+    {
+      "id": "yunyingpai",
+      "name": "运营派",
+      "type": "rss",
+      "url": "https://www.yunyingpai.com/rss",
+      "category": "E-垂直媒体",
+      "status": "active",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "auto",
+      "note": "RSS 稳定"
+    },
+    {
+      "id": "huxiu",
+      "name": "虎嗅网",
+      "type": "html",
+      "url": "https://www.huxiu.com",
+      "category": "E-垂直媒体",
+      "status": "active",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "auto",
+      "note": "HTML 页面，需解析列表"
+    },
+    {
+      "id": "jiqizhixin",
+      "name": "机器之心",
+      "type": "html",
+      "url": "https://www.jiqizhixin.com",
+      "category": "E-垂直媒体",
+      "status": "active",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "auto",
+      "note": "部分内容需登录"
+    },
+    {
+      "id": "web_search",
+      "name": "综合搜索",
+      "type": "web_search",
+      "url": "N/A",
+      "category": "补抓",
+      "status": "active",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "auto",
+      "note": "web_search 合并计为1个独立源"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎热榜",
+      "type": "via_aggregator",
+      "url": "via tophub.today",
+      "category": "F-社会娱乐",
+      "status": "via_aggregator",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "via_tophub",
+      "note": "通过 tophub.today 获取"
+    },
+    {
+      "id": "weibo",
+      "name": "微博热搜",
+      "type": "via_aggregator",
+      "url": "via tophub.today",
+      "category": "F-社会娱乐",
+      "status": "via_aggregator",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "via_tophub",
+      "note": "通过 tophub.today 获取"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站排行榜",
+      "type": "via_aggregator",
+      "url": "via tophub.today",
+      "category": "F-社会娱乐",
+      "status": "via_aggregator",
+      "last_success": "2026-05-14",
+      "consecutive_failures": 0,
+      "last_check": "via_tophub",
+      "note": "通过 tophub.today 获取"
+    },
+    {
+      "id": "woshipm",
+      "name": "人人都是产品经理",
+      "type": "html",
+      "url": "https://www.woshipm.com",
+      "category": "备用",
+      "status": "degraded",
+      "last_success": "unknown",
+      "consecutive_failures": 5,
+      "last_check": "manual",
+      "note": "⚠️ 反爬，连续失败，移入备用"
+    },
+    {
+      "id": "juejin",
+      "name": "掘金",
+      "type": "html",
+      "url": "https://juejin.cn",
+      "category": "备用",
+      "status": "degraded",
+      "last_success": "unknown",
+      "consecutive_failures": 5,
+      "last_check": "manual",
+      "note": "⚠️ 反爬，连续失败，移入备用"
+    },
+    {
+      "id": "sspai",
+      "name": "少数派",
+      "type": "html",
+      "url": "https://sspai.com",
+      "category": "备用",
+      "status": "degraded",
+      "last_success": "2026-05-13",
+      "consecutive_failures": 1,
+      "last_check": "manual",
+      "note": "⚠️ 不稳定，移入备用"
+    },
+    {
+      "id": "ifeng",
+      "name": "爱范儿",
+      "type": "html",
+      "url": "https://www.ifeng.com",
+      "category": "备用",
+      "status": "degraded",
+      "last_success": "unknown",
+      "consecutive_failures": 5,
+      "last_check": "manual",
+      "note": "⚠️ 反爬，移入备用"
+    },
+    {
+      "id": "chanmama",
+      "name": "蝉妈妈",
+      "type": "html",
+      "url": "https://www.chanmama.com",
+      "category": "C-数据榜单",
+      "status": "degraded",
+      "last_success": "unknown",
+      "consecutive_failures": 5,
+      "last_check": "manual",
+      "note": "⚠️ 需要登录，移入备用"
+    }
+  ],
+  "rules": {
+    "degrade_threshold": 3,
+    "restore_threshold": 2,
+    "check_frequency": "weekly"
+  }
+}

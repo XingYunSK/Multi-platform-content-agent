@@ -1,0 +1,114 @@
+# 今日热点简报 JSON 模板
+
+## 说明
+
+机器可读的热点简报格式，供下游 agent（material-miner、content-writer 等）直接解析，无需解析 Markdown。
+
+## 字段说明
+
+```json
+{
+  "date": "YYYY-MM-DD",                    // 简报日期
+  "generated_at": "ISO8601 时间戳",          // 生成时间
+  "coverage": {
+    "independent_sources": 6,               // 独立数据源数（≥6 达标）
+    "required_sources": 6,
+    "sources_passed": true,
+    "domain_diversity": {
+      "ai_count": 12,                       // Top 15 中 AI 类数量
+      "non_ai_count": 3,                    // Top 15 中非 AI 类数量
+      "non_ai_ratio": 0.20,
+      "required_ratio": 0.30,
+      "passed": false                        // 非AI类 <30% 则 false
+    },
+    "freshness_ratio": 1.0,                 // 近5天内容占比（≥0.6 达标）
+    "expired_count": 0                      // 过期内容丢弃数
+  },
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "uuid",
+      "title": "热点标题",
+      "publish_date": "YYYY-MM-DD",
+      "days_ago": 0,
+      "timeliness_score": 100,
+      "source_type": "🔴平台官方|🟠白皮书|🟡数据榜单|🟢垂直媒体|🔵F类社会|🟣G类财经|🟤H类文化",
+      "sources": ["虎嗅网", "腾讯财报", "web_search"],
+      "fingerprint": "md5hex",
+      "freshness": "new|follow",
+      "core_event": "一句话概括",
+      "client_tags": [
+        {"name": "Holamuse", "strength": "强|中|弱"}
+      ],
+      "pillar": "P1|P2|P3",
+      "angles": [
+        "切入角度1",
+        "切入角度2",
+        "切入角度3"
+      ]
+    }
+  ],
+  "dedup_log": [
+    {
+      "title": "被跳过的重复热点标题",
+      "reason": "摘要相似度>50%|话题7天内已报",
+      "original_topic_id": "原topic_id"
+    }
+  ],
+  "official_updates": {
+    "腾讯": ["更新内容1", "更新内容2"],
+    "阿里": ["更新内容1"],
+    "抖音": ["更新内容1"]
+  }
+}
+```
+
+## 使用方式
+
+1. 抓取完成后：生成 `.md` 简报的同时生成 `.json` 文件
+2. material-miner：直接读取 `topics[].topic_id` 和 `topics[].sources` 构建素材请求
+3. content-writer：直接读取 `topics[].title` + `topics[].pillar` + `topics[].angles`，无需解析 Markdown
+4. workspace-lead：解析 `coverage.*` 字段做每日健康度检查
+
+## 示例输出（部分）
+
+```json
+{
+  "date": "2026-05-14",
+  "coverage": {
+    "independent_sources": 6,
+    "required_sources": 6,
+    "sources_passed": true,
+    "domain_diversity": {
+      "ai_count": 14,
+      "non_ai_count": 1,
+      "non_ai_ratio": 0.067,
+      "required_ratio": 0.30,
+      "passed": false
+    },
+    "freshness_ratio": 1.0,
+    "expired_count": 0
+  },
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "2026-05-14-001",
+      "title": "大厂AI资本开支再提速：腾讯370亿创纪录",
+      "publish_date": "2026-05-14",
+      "days_ago": 0,
+      "timeliness_score": 100,
+      "source_type": "🔴平台官方",
+      "sources": ["虎嗅网", "腾讯财报"],
+      "fingerprint": "a3f5c8e12d...",
+      "freshness": "new",
+      "core_event": "腾讯Q1资本开支370亿元创单季纪录",
+      "client_tags": [{"name": "Holamuse", "strength": "强"}],
+      "pillar": "P1",
+      "angles": [
+        "腾讯阿里650亿砸向AI：代运营公司的机会在哪里",
+        "国产算力链拿到"订单说明书"，中国AI的制造业时刻来了"
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "DeepSeek融资大事件信息图，深色背景（warm charcoal #4A4A4A）。顶部DeepSeek LOGO金色光芒剪影。中央三大核心数据：最大'3000亿'估值（warm orange #ED8936），中等'500亿'融资（golden yellow #F6AD55），较小'腾讯+阿里'联合投资（terracotta #C05621）。底部人才流失标注：郭达雅→字节 | 王炳宣→腾讯 | 阮翀→小米。整体氛围沉稳紧张，有紧迫感。温暖大地色调，无冷色。比例2.35:1。",
+    "image": "00-cover.png",
+    "ar": "2.35:1",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "DeepSeek发展历程水平时间线，从左到右：2023年DeepSeek成立（幻方支持，技术理想起步，warm orange明亮）→ 2024年R1爆火出圈（开源R1引发全球关注，golden yellow高光）→ 2025年人才流失+豆包超越（核心研究员离职，字节豆包反超，terracotta暗淡）→ 2026年融资500亿（腾讯阿里联手，deep brown沉重）。颜色从明亮渐变到暗淡，直观呈现'从骄傲到焦虑'情绪变化。顶部标题：'DeepSeek这一年：从技术骄傲到被迫融资'。底部：'500亿不是扩张，是止血'。温暖大地色调，软桃色背景，手写字体标签。比例16:9。",
+    "image": "01-timeline.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]

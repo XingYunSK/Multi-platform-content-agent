@@ -1,0 +1,38 @@
+[
+  {
+    "prompt": "Minimalist tech editorial cover image in 'new neutral information style' / tech business magazine aesthetic. Cream-white (#F5F5F0) background with subtle texture. Large bold headline at top in modern sans-serif font (like Calibri/Inter/Helvetica feel): '80%代码由AI自己写' as main title, and below it '判断力，最后的稀缺资源' as subtitle. Center: an abstract geometric symbol suggesting AI building itself — a clean recursive loop or Mobius-like form made of thin dark-gray lines, with a single orange (#E85D04) accent point on the loop. 1-2 minimal linear icons near the symbol: code brackets and a microchip outline, all thin-line geometric style. Bottom: thin orange horizontal line as anchor. No data cards, no timelines, no cluttered elements. Clean composition, generous whitespace, premium editorial feel. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text must be clean and legible, no calligraphy fonts.",
+    "image": "00-cover.png",
+    "ar": "2.35:1",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Square 1:1 minimalist tech editorial cover in same style as previous. Cream-white (#F5F5F0) background. Center: large bold number '80%' in modern sans-serif font, with small text below 'AI自写代码'. Simplified recursive loop symbol or chip outline in dark gray with single orange (#E85D04) accent point. Bottom: small 'Holamuse' text. Very minimal, only core number and symbol, high readability at small size. No data, no clutter. New neutral information style, tech business magazine aesthetic. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean, no calligraphy fonts.",
+    "image": "00-cover-square.png",
+    "ar": "1:1",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Tech business editorial infographic in 'new neutral information style'. Cream-white (#F5F5F0) background. Magazine-style layout with clear hierarchy. Top: large headline '当AI开始构建自己' with subtitle 'Anthropic 2026年5月报告核心数据', separated by thin orange line. Left side: three key-number cards in rounded rectangles with light shadows on light gray (#E8E8E8) background — '80%+' with '代码由Claude编写', '15个月' with '从个位数到80%', '52倍' with '工程师日合并代码量提升'. Right side: exponential curve chart showing timeline 2024.3 → 2025.3 → 2026, with values 4分钟 → 1.5小时 → 12 hours, steep upward curve with orange dots at key nodes, small note '每四个月翻一番'. Bottom: 4 small tag-style items with orange vertical bars as anchors: '基准测试快速饱和', '生产力重构4-8倍', '800个修复=4年人力', '判断力窗口期有限'. Modern sans-serif font throughout (Calibri/Inter/Helvetica feel). Clean, information-dense but not cluttered, generous whitespace. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean and legible, no calligraphy or Song/Times fonts.",
+    "image": "01-intro-infographic.png",
+    "ar": "4:3",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Clean data visualization chart in 'new neutral information style'. Cream-white (#F5F5F0) background. Title at top: 'AI独立完成任务时长指数曲线'. Horizontal timeline axis: 2024年3月 → 2025年3月 → 2026年, with a dashed extension to 2026年底. A steep exponential curve rising from bottom-left, with three orange (#E85D04) dots marking key nodes: '4分钟' at 2024.3, '1.5小时' at 2025.3, '12小时' at 2026. Thin lines connecting dots to their Chinese labels. Dashed line extending beyond 2026 suggesting continued growth. Small note at bottom: '约每四个月翻一番'. Another small note: '如果延续，几天时长的任务也将落入AI能力范围'. Modern sans-serif font (Calibri/Inter/Helvetica feel). Clean chart area, generous whitespace, light gray (#CCCCCC) grid lines. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean and legible, no calligraphy or Song/Times fonts.",
+    "image": "02-task-duration-curve.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Three-column framework infographic in 'new neutral information style'. Cream-white (#F5F5F0) background. Top: headline '三种情景：不是预测，是压力测试' with subtitle 'Anthropic报告中的三种可能路径', separated by thin orange line. Three equal columns below, each a rounded rectangle card with light shadow on light gray (#E8E8E8) background. Left card: title '趋势停滞' with orange vertical bar anchor, bullet points 'AI无法拥有研究品味', '复合式加速仍持续', '人类专注方向设定', bottom insight '即使不递归改进，现有加速也足够改变组织'. Middle card: title '大幅自动化' with orange vertical bar anchor, bullet points '生产力乘数效应', '100人=1万人工作量', '产出爆发式增长', bottom insight '注意力瓶颈——产出超过消化能力'. Right card: title '递归自我改进' with orange vertical bar anchor, bullet points '速度取决于算力和算法', '人类角色转向监督验证', '虚拟实验室扩张', bottom insight '对齐偏差累积，可能失去控制'. Bottom: small text '我们可能无法判断自己处于哪条趋势线上'. Modern sans-serif font (Calibri/Inter/Helvetica feel). Cards aligned, clear hierarchy, generous whitespace. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean and legible, no calligraphy or Song/Times fonts.",
+    "image": "03-scenarios-framework.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  },
+  {
+    "prompt": "Comparison concept infographic in 'new neutral information style'. Cream-white (#F5F5F0) background. Top-bottom split layout. Top half (~40%): '执行成本' in gray tones, large downward arrow pointing to near-zero, key data points '4倍→8倍→52倍 效率提升', '800个修复=4年人力', '趋近于零'. Small linear icons: code brackets, tool symbols in thin gray lines. Bottom half (~40%): '判断价值' in dark gray/black with orange (#E85D04) emphasis, large upward arrow pointing to scarcity/premium, key concepts '选择做什么', '什么时候止损', '什么方向值得投入'. Small linear icons: thinking/decision symbols in thin dark lines. Middle (~10%): thin orange horizontal line as visual pivot. Bottom (~10%): three small tag pairs with orange dots: '执行成本坍塌 vs 判断价值上升', '产出爆发 vs 注意力瓶颈', '自动化速度 vs 组织重构速度'. Modern sans-serif font (Calibri/Inter/Helvetica feel). Strong visual contrast between top (compressed, gray) and bottom (rising, orange-accented). Clean, generous whitespace. No sci-fi blue, no cyberpunk, no neon, no 3D, no cartoon. Chinese text clean and legible, no calligraphy or Song/Times fonts.",
+    "image": "04-judgment-vs-execution.png",
+    "ar": "16:9",
+    "model": "gpt-image-2"
+  }
+]

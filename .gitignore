@@ -1,0 +1,15 @@
+# macOS metadata
+.DS_Store
+
+# Obsidian local state that should stay on each user's machine
+.obsidian/workspace-mobile.json
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+Thumbs.db
